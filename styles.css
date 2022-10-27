@@ -6,16 +6,15 @@
     font-weight: inherit;
 }
 
-html,
-body {
-    height: 100vh;
+html {
+    height: 100%;
     width: 100vw;
-    background-color: #0B0C0D;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    min-height: 100%;
+    width: 100vw;
+    background-color: #0B0C0D;
 }
 
 @media screen and (min-width: 768px) {
@@ -81,26 +80,26 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.25rem;
+    gap: 3.75rem;
 
-    position: relative;
-    top: 2rem;
-
-    padding: 0 1rem 2rem;
-    margin: 2rem 0;
+    padding: 0 1rem;
+    margin-top: 4rem;
 
     background-image: url(./images/jenna.svg);
-    background-position: 50% 100%;
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: contain;
+    background-origin: content-box;
+}
+
+.hero-heading,
+.hero-text {
+    margin-top: 1rem;
 }
 
 .hero-heading {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 2rem;
-    position: relative;
-    top: 3.1rem;
 }
 
 .color-name {
@@ -109,8 +108,6 @@ a {
 
 .hero-text {
     font-size: 1rem;
-    position: relative;
-    top: 4rem;
 }
 
 .hero-text,
@@ -125,8 +122,8 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: auto;
-    margin-bottom: 2rem;
+    margin-top: 4.625rem;
+    margin-bottom: 8.5rem;
 }
 
 .footer-text {
