@@ -67,6 +67,10 @@ a {
     margin-top: 1rem;
 }
 
+.hero-heading-top {
+    color: white;
+}
+
 .hero-heading {
     color: #D7B4E8;
     font-weight: 800;
@@ -137,6 +141,11 @@ a {
         gap: 6.188rem;
     }
 
+    .hero {
+        margin-top: 6rem;
+        gap: 2rem;
+    }
+
     .hero-heading {
         font-size: 8rem;
     }
@@ -144,5 +153,30 @@ a {
     .hero-text {
         font-size: 2.5rem;
     }
+
+    .landing-page-footer {
+        margin-top: 10rem;
+    }
+
+    .design-projects {
+        display: grid;
+        grid-template-columns: fit-content(100%) fit-content(100%);
+        grid-gap: 1.25rem;
+        width: 100vw;
+        justify-items: center;
+    }
     
+    .project-img {
+        max-width: calc((100vw - 11.25rem) / 2);
+    }
+
+}
+
+@media (min-width: 1440px) {
+    
+    .landing-page-footer {
+        margin-top: 12rem;
+    }
+
+
 }
