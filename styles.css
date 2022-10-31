@@ -80,15 +80,10 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 
     padding: 0 1rem;
     margin-top: 4rem;
-
-    background-image: url(./images/jenna.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: content-box;
 }
 
 .hero-heading,
@@ -99,7 +94,7 @@ a {
 .hero-heading {
     color: #D7B4E8;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3.75rem;
     text-transform: uppercase;
     text-align: center;
     line-height: 100%;
@@ -108,11 +103,8 @@ a {
 .hero-text {
     color: white;
     font-size: 1.25rem;
-}
-
-.hero-text,
-.footer-text {
-    text-align: center;
+    font-weight: 300;
+    font-family: 'Bitter';
 }
 
 .landing-page-footer {
@@ -127,6 +119,7 @@ a {
 .footer-text {
     color: #D9D9D9;
     font-weight: 300;
+    text-align: center;
 }
 
 .arrow {
