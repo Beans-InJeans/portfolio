@@ -119,6 +119,10 @@ a {
     max-width: calc(100vw - 2rem);
 }
 
+.project-img-destkop {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .nav-bar {
         display: flex;
@@ -167,6 +171,11 @@ a {
     }
     
     .project-img {
+        display: none;
+    }
+
+    .project-img-desktop {
+        display: block;
         max-width: calc((100vw - 11.25rem) / 2);
     }
 
@@ -178,5 +187,12 @@ a {
         margin-top: 12rem;
     }
 
+    .project-img {
+        display: none;
+    }
+
+    .project-img-destkop {
+        display: block;
+    }
 
 }
