@@ -113,12 +113,12 @@ a {
     align-items: center;
 }
 
-.project-img {
+.project-thumbnail {
     margin: 0.5rem 1rem;
     max-width: calc(100vw - 2rem);
 }
 
-.project-img-desktop {
+.project-thumbnail-desktop {
     display: none;
 }
 
@@ -169,11 +169,11 @@ a {
         justify-items: center;
     }
     
-    .project-img {
+    .project-thumbnail {
         display: none;
     }
 
-    .project-img-desktop {
+    .project-thumbnail-desktop {
         display: block;
         max-width: calc((100vw - 11.25rem) / 2);
     }
@@ -186,11 +186,11 @@ a {
         margin-top: 12rem;
     }
 
-    .project-img {
+    .project-thumbnail {
         display: none;
     }
 
-    .project-img-destkop {
+    .project-thumbnail-destkop {
         display: block;
     }
 
