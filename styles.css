@@ -114,7 +114,6 @@ a {
 }
 
 .project-img {
-    border-radius: 1rem;
     margin: 0.5rem 1rem;
     max-width: calc(100vw - 2rem);
 }
