@@ -212,7 +212,7 @@ a {
 }
 
 .project-text-content {
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     background-color: #175AA9;
     color: white;
 }
@@ -229,7 +229,6 @@ a {
 }
 
 .project-description {
-    white-space: pre-line;  
     margin-top: 1.5rem;
     font-family: 'Bitter', serif;
     font-size: 1rem;
@@ -245,13 +244,12 @@ a {
 .gallery {
     background-color: white;
     color: black;
-    padding: 2rem 1rem;
 }
 
 .gallery-description {
     font-family: 'Bitter', serif;
     line-height: 150%;
-    margin-bottom: 2rem;
+    padding: 4rem 1rem;
 }
 
 .gallery-images {
@@ -263,6 +261,7 @@ a {
         "five six"
         "seven six";
     gap: 0.5rem;
+    padding: 0 1rem;
 }
 
 .grid-1 {
@@ -304,7 +303,8 @@ a {
     display: none;
 }
 
-@media (min-width: 768px) {
+/* tablet portrait */
+@media (min-width: 600px) {
     .mobile {
         display: none;
     }
@@ -322,21 +322,23 @@ a {
     }
 
     .project-description {
-        font-size: 1.25;
+        font-size: 1.25rem;
     }
 
     .gallery {
-       display: flex; 
-       flex-direction: column;
+        padding: 0;
     }
 
     .gallery-description {
-        margin: 2rem 5rem;
+        font-size: 1.25rem;
+        padding: 4rem 5rem;
+        margin-bottom: 0;
     }
 
 }
 
-@media (min-width: 1440px) {
+/* tablet landscape */
+@media (min-width: 900px) {
     .mobile {
         display: none;
     }
@@ -353,5 +355,15 @@ a {
         justify-content: center;
         gap: 1.5rem;
     }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+    
+}
+
+/* large desktop */
+@media (min-width: 1800px) {
+
 }
 
