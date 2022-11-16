@@ -217,7 +217,7 @@ a {
     color: white;
 }
 
-.project-title {
+.project-client {
     font-weight: 800;
     font-size: 1.5rem;
 }
@@ -318,7 +318,7 @@ a {
         padding: 4rem 5rem;
     }
 
-    .project-title {
+    .project-client {
         font-size: 2.5rem;
     }
 
